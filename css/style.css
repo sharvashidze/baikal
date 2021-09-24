@@ -1,2 +1,72 @@
 body {
+  font-family: "Roboto", sans-serif;
+}
+/*font-family: 'PT Serif', serif;*/
+p,
+ul,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.conteiner {
+  width: 1150px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*------КАТЕГОРИЯ ТУРОВ-----
+-------------------------*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.categories-card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -32px;
+  margin-bottom: -32px;
+}
+.categories-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 13px;
+  padding-bottom: 16px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+.categories-item {
+  width: 256px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  border: 1px solid #d9d9de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.categories {
+  padding-top: 48px;
+  padding-bottom: 64px;
 }
