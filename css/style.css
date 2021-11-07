@@ -26,7 +26,15 @@ ul {
   margin-right: auto;
   margin-left: auto;
 }
-
+/*-----🤞Header Logo✌️-----*/
+.header {
+  background: #c4c4c4;
+  /*opacity: 0.3;*/
+  border-bottom: 1px solid #d9d9de;
+}
+.logo {
+  display: flex;
+}
 /*------КАТЕГОРИЯ ТУРОВ-----
 -------------------------*/
 .visually-hidden {
