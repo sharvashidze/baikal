@@ -19,6 +19,9 @@ ul {
   padding: 0;
   list-style: none;
 }
+:root {
+  --цвет-текста: black;
+}
 .conteiner {
   width: 1150px;
   padding-left: 15px;
@@ -27,13 +30,12 @@ ul {
   margin-left: auto;
 }
 /*-----🤞Header Logo✌️-----*/
-.header {
-  background: #c4c4c4;
-  /*opacity: 0.3;*/
-  /*border-bottom: 1px solid #d9d9de;*/
+.logo {
+  display: flex;
 }
+
 .page-nav {
-  border-top: 2px solid black;
+  border-top: 1px solid #d9d9de;
   margin-top: 20px;
 }
 .page-nav__list {
@@ -48,10 +50,33 @@ ul {
 .page-nav__link {
   font-size: 16px;
   line-height: 1.18;
-  color: #ffffff;
+  color: var(--цвет-текста);
 }
-.logo {
-  display: flex;
+.logo__text {
+  display: inline-block;
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--цвет-текста);
+}
+
+.hero {
+  max-width: 1920px;
+  padding-top: 226px;
+  padding-bottom: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/Главный-экран\ 2.jpg);
+}
+.hero__title {
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 117px;
+  width: 724px;
+  color: var(--цвет-текста);
 }
 /*------КАТЕГОРИЯ ТУРОВ-----
 -------------------------*/
