@@ -30,7 +30,25 @@ ul {
 .header {
   background: #c4c4c4;
   /*opacity: 0.3;*/
-  border-bottom: 1px solid #d9d9de;
+  /*border-bottom: 1px solid #d9d9de;*/
+}
+.page-nav {
+  border-top: 2px solid black;
+  margin-top: 20px;
+}
+.page-nav__list {
+  display: inline-flex;
+}
+.page-nav__item {
+  margin-right: 32px;
+}
+.page-nav__item:last-child {
+  margin-right: 0px;
+}
+.page-nav__link {
+  font-size: 16px;
+  line-height: 1.18;
+  color: #ffffff;
 }
 .logo {
   display: flex;
