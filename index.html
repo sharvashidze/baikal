@@ -24,17 +24,28 @@
     <!--🤞Header Logo✌️-->
     <header class="page-header">
       <div class="conteiner">
-        <a href="./index.html" class="logo">
-          <img src="./images/Group28.svg" alt="Group" />
-          <span class="logo__text">Байкальский отдых Турагентство</span>
-        </a>
-        <ul>
+        <div class="page-header__block">
+          <a href="" class="logo"><img src="./images/logo.svg" alt="" /></a>
+          <div class="logo__block">
+            <p class="logo__text">Байкальский отдых</p>
+            <p class="logo__text2">Турагентство</p>
+          </div>
+
+          <button type="button" class="logo__menu">
+            <svg width="32" height="24" class="logo__icon">
+              <use href="./images/symbol-defs.svg#icontelmenu"></use>
+            </svg>
+          </button>
+        </div>
+        <ul class="page-header__contacts">
           <li><a href="tel:89243541540">8-924-3-541-540</a></li>
           <li>
             <a href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a>
           </li>
         </ul>
-        <button type="button">Обратный звонок</button>
+        <button type="button" class="page-header__button">
+          Обратный звонок
+        </button>
         <nav class="page-nav">
           <ul class="page-nav__list">
             <li class="page-nav__item">
@@ -60,12 +71,14 @@
       <section class="hero">
         <div class="conteiner">
           <h1 class="hero__title">Путешествия по Байкалу</h1>
-          <p>
+          <p class="hero__text">
             Туры по самому красивому месту России. Поехали с нами за новыми
             впечатлениями!
           </p>
-          <a href="#">подобрать тур</a>
-          <a href="#"></a>
+          <div class="hero-block">
+            <a href="#" class="hero__link">подобрать тур</a>
+            <a href="#" class="hero__icon"></a>
+          </div>
         </div>
       </section>
       <section class="categories">

@@ -1,7 +1,7 @@
-body {
+/* body {
   font-family: "Roboto", sans-serif;
 }
-/*font-family: 'PT Serif', serif;*/
+font-family: 'PT Serif', serif;
 p,
 ul,
 h1,
@@ -25,17 +25,18 @@ ul {
 :root {
   --цвет-текста: black;
 }
-.conteiner {
+/* .conteiner {
   width: 1150px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
+*/
 /*-----🤞Header Logo✌️-----*/
-.logo {
+/* .logo {
   display: flex;
-}
+} */
 
 .page-nav {
   border-top: 1px solid #d9d9de;

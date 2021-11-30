@@ -15,7 +15,7 @@ a {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   display: block;
   height: auto;
 }
@@ -36,5 +36,131 @@ ul {
   .conteiner {
     width: 320px;
   }
+}
+
+.page-header {
+  position: absolute;
+}
+
+.page-header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.logo__text {
+  font-family: PT Serif;
+  color: #ffffff;
+}
+
+.logo__text2 {
+  color: #ffffff;
+}
+
+.logo__menu {
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.logo__icon {
+  fill: #ffffff;
+}
+
+@media screen and (min-width: 320px) {
+  .page-header__contacts {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .page-header__button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .page-nav {
+    display: none;
+  }
+}
+
+.hero {
+  max-width: 1920px;
+  background-color: #757575;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/fon1x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  padding-top: 111px;
+  padding-bottom: 23px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/fon@2x.jpg);
+  }
+}
+
+.hero__title {
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 13px;
+  color: #ffffff;
+}
+
+.hero__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 37px;
+  max-width: 288px;
+  color: #ffffff;
+}
+
+.hero__link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 49px;
+  border: 1px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.hero__icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+}
+
+.hero-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

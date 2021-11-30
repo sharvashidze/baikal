@@ -1,0 +1,56 @@
+.hero {
+  max-width: 1920px;
+  background-color: #757575;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/fon1x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  @media (min-resolution: 2dppx) {
+    background-image: url(../images/fon@2x.jpg);
+  }
+  padding-top: 111px;
+  padding-bottom: 23px;
+}
+
+.hero__title {
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 13px;
+  color: $whiteColor;
+}
+.hero__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 37px;
+  max-width: 288px;
+  color: $whiteColor;
+}
+.hero__link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $whiteColor;
+  padding: 15px 49px;
+  border: 1px solid $whiteColor;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+.hero__icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $whiteColor;
+}
+.hero-block {
+  display: flex;
+  text-align: center;
+}
