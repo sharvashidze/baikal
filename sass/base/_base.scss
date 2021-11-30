@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+p,
+ul,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.conteiner {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+}
