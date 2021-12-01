@@ -21,7 +21,21 @@
 .suggestions__imgblock {
   position: relative;
 }
+// .suggestions__item {
 
+// }
+// .suggestions__link {
+
+// }
+.suggestions__img {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 48.44%,
+    rgba(255, 255, 255, 1) 76.04%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
 .suggestions__subtitle {
   font-weight: 500;
   font-size: 16px;

@@ -299,6 +299,11 @@ ul {
   position: relative;
 }
 
+.suggestions__img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(48.44%, white), color-stop(76.04%, white), to(black));
+  background-image: linear-gradient(180deg, black 0%, white 48.44%, white 76.04%, black 100%);
+}
+
 .suggestions__subtitle {
   font-weight: 500;
   font-size: 16px;
