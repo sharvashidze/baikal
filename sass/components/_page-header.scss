@@ -1,5 +1,6 @@
 .page-header {
   position: absolute;
+  width: 100%;
 }
 .page-header__block {
   display: flex;
@@ -30,16 +31,25 @@
   fill: $whiteColor;
 }
 .page-header__contacts {
+  @media screen and (max-width: 319px) {
+    display: none;
+  }
   @media screen and (min-width: 320px) {
     display: none;
   }
 }
 .page-header__button {
+  @media screen and (max-width: 319px) {
+    display: none;
+  }
   @media screen and (min-width: 320px) {
     display: none;
   }
 }
 .page-nav {
+  @media screen and (max-width: 319px) {
+    display: none;
+  }
   @media screen and (min-width: 320px) {
     display: none;
   }
