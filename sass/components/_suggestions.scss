@@ -22,7 +22,14 @@
 .suggestions__price {
   color: $textColor;
 }
-.suggestions__img {
+// .suggestions__img {
+
+// }
+// .suggestions__item {
+
+// }
+.suggestions__link {
+  max-width: 288px;
   background: linear-gradient(
     180deg,
     #000000 0%,
@@ -30,8 +37,6 @@
     #ffffff 76.04%,
     #000000 100%
   );
-}
-.suggestions__item {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.8) rgba(255, 255, 255, 0.8) rgba(255, 255, 255, 0.8)
       rgba(0, 0, 0, 0.8)
