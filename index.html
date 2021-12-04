@@ -417,9 +417,13 @@
               <a href="#" class="suggestions__link"
                 ><img
                   class="suggestions__img"
-                  srcset="./images/obrozovanie.jpg 1x"
-                  src="./images/images/Иволгинский дацан.jpg"
-                  alt="Иволгинский дацан"
+                  srcset="
+                    ./images/obrozovanie.jpg    1x,
+                    ./images/obrozovanie@2x.jpg 2x,
+                    ./images/obrozovanie@3x.jpg 3x
+                  "
+                  src="./images/obrozovanie.jpg"
+                  alt="obrozovanie"
                   width="288"
                 />
                 <h3 class="suggestions__subtitle">
@@ -431,10 +435,15 @@
               >
             </li>
             <li class="suggestions__item">
-              <a href="#"
+              <a href="#" class="suggestions__link"
                 ><img
+                  srcset="
+                    ./images/hotelbaikal.jpg    1x,
+                    ./images/hotelbaikal@2x.jpg 2x,
+                    ./images/hotelbaikal@3x.jpg 3x
+                  "
                   class="suggestions__img"
-                  src="./images/images/Улан-Удэ 1.jpg"
+                  src="./images/hotelbaikal.jpg"
                   alt="Улан-Удэ"
                   width="288"
                 />
@@ -444,19 +453,28 @@
                 <p class="suggestions__price">Стоимость от 6500 руб.</p></a
               >
             </li>
-            <li>
-              <a href="#"
+            <li class="suggestions__item">
+              <a href="#" class="suggestions__link"
                 ><img
-                  src="./images/images/Эко-отель  1.jpg"
+                  srcset="
+                    ./images/datsan.jpg    1x,
+                    ./images/datsan@2x.jpg 2x,
+                    ./images/datsan@3x.jpg 3x
+                  "
+                  class="suggestions__img"
+                  src="./images/datsan.jpg"
                   alt="Эко-отель"
-                  width="256"
-                  height="256"
+                  width="288"
                 />
-                <h3>Эко-отель «Байкальское шале», с. Максимиха</h3>
-                <p>Стоимость от 6500 руб.</p></a
+                <h3 class="suggestions__subtitle">
+                  Экскурсия в Иволгинский дацан
+                </h3>
+                <p class="suggestions__price">
+                  Продолжительность 4 часа Cтоимость от 500 руб.
+                </p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/Летний Чивыркуйский.jpg"
@@ -468,7 +486,7 @@
                 <p>Cтоимость 4000 руб.</p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/Отель «Белая Карета», с 1.jpg"
@@ -480,7 +498,7 @@
                 <p>Cтоимость от 3200 руб.</p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/«Байкальская Гавань» 1.jpg"
@@ -492,7 +510,7 @@
                 <p>Стоимость от 1000 руб.</p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/«Сагаан-Морин», с 1.jpg"
@@ -504,7 +522,7 @@
                 <p>Стоимость от 3500 руб.</p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/Летний  Ольхон 2.jpg"
@@ -516,7 +534,7 @@
                 <p>Стоимость 8500 руб.</p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/«Байкальская Ривьера».jpg"
@@ -528,7 +546,7 @@
                 <p>Стоимость 2000 руб.</p></a
               >
             </li>
-            <li>
+            <li class="suggestions__item suggestions__item-hidden">
               <a href="#"
                 ><img
                   src="./images/images/«Чивыркуйская сказка».jpg"
@@ -540,18 +558,29 @@
                 <p>Cтоимость от 3700 руб.</p></a
               >
             </li>
+            <li class="suggestions__item">
+              <a href="">
+                <img
+                  srcset="./images/photogalery.jpg 1x, ./images/photogalery@2x.jpg 2xx, ./images/photogalery@3x.jpg 3x,"
+                  src="./images/photogalery.jpg"
+                  alt="photogalery"
+                />
+                <h3>Показать все предложения</h3>
+              </a>
+            </li>
           </ul>
-          <a href="">Показать все предложения</a>
         </div>
       </section>
       <section class="map">
-        <h2>Карта Байкала</h2>
-        <img
-          src="./images/images/карта баикал.jpg"
-          alt="карта баикал"
-          width="1120"
-          height="609"
-        />
+        <div class="conteiner">
+          <h2 class="map__title">Карта Байкала</h2>
+          <img
+            src="./images/images/карта баикал.jpg"
+            alt="карта баикал"
+            width="1120"
+            height="609"
+          />
+        </div>
       </section>
       <section class="about">
         <h2>О Байкале</h2>
