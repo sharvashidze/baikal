@@ -22,7 +22,7 @@
   font-size: 16px;
   line-height: 21px;
   color: $whiteColor;
-  margin-bottom: 180px;
+  margin-bottom: 179px;
 }
 .suggestions__price {
   font-size: 14px;
@@ -46,10 +46,30 @@
     rgba(0, 0, 0, 0.7) 100%
   );
   border-radius: 6px;
-  padding: 18px 0 0 18px;
+  padding: 18px 24px 24px 18px;
 }
 .suggestions__item-hidden {
   @media screen and (min-width: 320px) and (max-width: 735px) {
     display: none;
   }
+}
+.offer__block {
+  position: relative;
+}
+.offer__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+.offer__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: $whiteColor;
 }
