@@ -436,8 +436,8 @@
                     alt="obrozovanie"
                     width="288"
                   />
-                  <div class="suggestions__block2">
-                    <h3 class="suggestions__subtitle">
+                  <div class="suggestions__block2 suggestions__block2--ulan">
+                    <h3 class="suggestions__subtitle suggestions__subtitle--margin">
                       Обзорная экскурсия по Улан-Удэ
                     </h3>
                     <p class="suggestions__price">
@@ -485,7 +485,7 @@
                     width="288"
                   />
                   <div class="suggestions__block2">
-                    <h3 class="suggestions__subtitle">
+                    <h3 class="suggestions__subtitle suggestions__subtitle--datsan">
                       Экскурсия в Иволгинский дацан
                     </h3>
                     <p class="suggestions__price">
@@ -600,71 +600,78 @@
       <section class="map">
         <div class="conteiner">
           <h2 class="map__title">Карта Байкала</h2>
-          
+          <img 
+          srcset="./images/mapmobile.jpg 288w, ./images/mapmobile@2x.jpg 576w, ./images/tabletkamap1@736.jpg 672w, ./images/tabletkamap736@2x.jpg 1344w, ./images/tabletkamap2.jpg 1024w, /images/tabletkamap2@2x.jpg 2048w, ./images/dekstopmap.jpg 1120w, ./images/dekstopmap@2x.jpg 2240w,"
+          sizes="(min-width:1150px) 1120px, (min-width:1088px) 1024px, (min-width:736px) 672px, (min-width:320px) 288px"
+          src="./images/mapmobile.jpg" alt="Map">
         </div>
       </section>
       <section class="about">
         <div class="conteiner">
-          <h2>О Байкале</h2>
-          <p>
+          <h2 class="about__title">О Байкале</h2>
+          <p class="about__text">
             Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние
             жители Прибайкалья называли его Священным морем и считали, что в
             Байкале нет дна, обожествляли и наделяли его мистическими
             свойствами. Именно здесь пронзительные чувства и скрытые способности
             человека находят выплеск.
           </p>
-          <p>
+          <p class="about__text">
             Познается что-то новое не только в природе, но и в самом себе.
             Многие посетившие Байкал люди утверждают, что озеро оказало большое
             влияние на их дальнейшую жизнь.
           </p>
-          <button type="button">Читать подробней</button>
+          <button type="button" class="about_btn">Читать подробней</button>
+          <video controls preload="auto" class="about__video"  poster="./video/fotobaigak.jpg" src="/video/videobaikal.mp4"> 
+            <source src="./video/videobaikal.mp4" type="video/videobaikal.mp4">
+            <source src="./video/videobaikal.webm.webm" type="video/videobaikal.webm.webm"></video>
         </div>
       </section>
       <section class="gallery">
+        <div class="conteiner">
         <h2>Фотогалерея</h2>
         <a href="#">Перейти в раздел</a>
-        <ul>
-          <li><button type="button"></button></li>
-          <li><button type="button"></button></li>
+        <ul class="gallery__btn-list">
+          <li class="gallery__btn-item"><button type="button"></button></li>
+          <li class="gallery__btn-item"><button type="button"></button></li>
         </ul>
-        <ul>
-          <li>
+        <ul class="gallery__img-list">
+          <li class="gallery__img-item">
             <img
               src="./images/images/images/Фотогалерея-1.jpg"
               alt="Фотогалерея-1"
               width="352"
             />
           </li>
-          <li>
+          <li class="gallery__img-item gallery__img-item--hidden">
             <img
               src="./images/images/images/Фотогалерея2.jpg"
               alt="Фотогалерея2"
               width="352"
             />
           </li>
-          <li>
+          <li class="gallery__img-item gallery__img-item--hidden">
             <img
               src="./images/images/images/Фотогалерея3.jpg"
               alt="Фотогалерея3"
               width="352"
             />
           </li>
-          <li>
+          <li class="gallery__img-item gallery__img-item--hidden">
             <img
               src="./images/images/images/Фотогалерея4.jpg"
               alt="Фотогалерея4"
               width="352"
             />
           </li>
-          <li>
+          <li class="gallery__img-item gallery__img-item--hidden">
             <img
               src="./images/images/images/Фотогалерея5.jpg"
               alt="Фотогалерея5"
               width="352"
             />
           </li>
-          <li>
+          <li class="gallery__img-item gallery__img-item--hidden">
             <img
               src="./images/images/images/Фотогалерея6.jpg"
               alt="Фотогалерея6"
