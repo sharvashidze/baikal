@@ -729,7 +729,7 @@ ul {
     padding: 11px 14px;
     outline: none;
     border: 1px solid #d9d9de;
-    margin-bottom: 15px;
+    margin-bottom: 21px;
   }
 }
 
@@ -749,7 +749,10 @@ ul {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: 0;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 27px;
 }
 
 .form__box {
@@ -758,5 +761,49 @@ ul {
   border-radius: 2px;
   width: 26px;
   height: 26px;
+  left: 0;
+  top: 5px;
+}
+
+.form__chekhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  text-align: center;
+}
+
+.form__chekhidden:checked + .form__box {
+  background-color: #76767a;
+  border-color: #76767a;
+  background-size: contain;
+  background-origin: border-box;
+  background-image: url(../../images/checkmark_icon_125020.svg);
+}
+
+.Form__text {
+  font-size: 14px;
+  line-height: 1.28;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #76767a;
+  margin-left: 58px;
+}
+
+.form__btn {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #ffffff;
+  width: 288px;
+  border: none;
+  padding: 15px 60px;
+  background: #0050b2;
+  border-radius: 25px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
