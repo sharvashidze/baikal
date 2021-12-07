@@ -761,12 +761,29 @@
         <div class="conteiner">
         <h2 class="form__title">Забронируйте отдых на Байкале</h2>
         <form class="form__block">
-          <label for="text"></label>
-          <input type="text" id="text" name="text" placeholder="Ваше имя" class="form__input">
+          <label for="name"></label>
+          <input type="name" id="name" name="name" placeholder="Ваше имя" class="form__input">
           <label for="number"></label>
           <input type="tel" id="number" name="number" placeholder="Телефон" class="form__input">
           <label for="use-email"></label>
           <input type="email" name="use-email" id="use-email" placeholder="E-mail" class="form__input">
+          <label for="place"></label>
+          <input type="text" name="place" id="place" placeholder="Местность Байкала" class="form__input">
+          <label for="quantity"></label>
+          <input type="number" name="quantity" id="quantity" placeholder="Количество взрослых" class="form__input">
+          <label for="number-of-children"></label>
+          <input type="text" name="number-of-children" id="number-of-children" placeholder="Количество детей, их возраст" class="form__input">
+          <div class="form__div">
+            <div class="form__div1">
+            <label for="date" class="form__label">Дата заезда</label>
+          <input type="date" name="date" id="date" class="form__date"></div>
+          <div class="form__div2">
+          <label for="date" class="form__label">Дата отъезда</label>
+          <input type="date" name="date" id="date" class="form__date"></div></div>
+         <textarea name="coments" rows="10" class="form__textarea" placeholder="Комментарий"></textarea>
+          <div class="form__chek">
+            <input type="checkbox" name="checkbox" id="checkbox"> <span class="form__box"></span>
+          <label for="checkbox">Согласие на обработку персональных данных</label></div>
         </form>
         </div>
       </section>
