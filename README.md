@@ -7,3 +7,14 @@ sizes="(min-width: 900px) 600px, (min-width: 600px) 300px, 100vw"
 src="photo-300.jpg"
 alt="Описание изображения для всех версий"
 /> -->
+is-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow: hidden;
+border: 0;
+clip: rect(0 0 0 0);
+text-align: center;
+}

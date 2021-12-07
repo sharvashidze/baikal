@@ -78,7 +78,7 @@
 
           <a href="#" class="hero__link">подобрать тур</a>
           <a href="#" class="hero__icon"><svg width="13" height="6,4">
-            <use href="./images/symbol-defs.svg#iconbottom"></use>
+            <use href="./images/symbol-defs.svg#iconGroup-10down"></use>
           </svg></a>
         </div>
       </section>
@@ -632,18 +632,25 @@
       </section>
       <section class="gallery">
         <div class="conteiner">
-        <h2>Фотогалерея</h2>
-        <a href="#">Перейти в раздел</a>
+          <div class="gallery__block">
+        <h2 class="gallery__title">Фотогалерея</h2>
+        <div class="gallery__link-block">
+        <a href="#" class="gallery__link">Перейти в раздел</a>
+        </div>
         <ul class="gallery__btn-list">
-          <li class="gallery__btn-item"><button type="button"></button></li>
-          <li class="gallery__btn-item"><button type="button"></button></li>
+          <li class="gallery__btn-item"><button type="button" class="gallery__button"><svg width="6" height="12" class="gallery__icon">
+            <use href="./images/symbol-defs.svg#iconleft"></use>
+          </svg></button></li>
+          <li class="gallery__btn-item"><button type="button" class="gallery__button"><svg width="6" height="12" class="gallery__icon">
+            <use href="./images/symbol-defs.svg#iconright"></use></button></li>
         </ul>
+        </div>
         <ul class="gallery__img-list">
           <li class="gallery__img-item">
             <img
-              src="./images/images/images/Фотогалерея-1.jpg"
+              src="./images/photogaleri.jpg"
               alt="Фотогалерея-1"
-              width="352"
+              width="288"
             />
           </li>
           <li class="gallery__img-item gallery__img-item--hidden">
@@ -684,52 +691,57 @@
         </ul>
       </section>
       <section class="invitation">
-        <h2>Байкальский отдых</h2>
-        <p>Байкальский отдых с нами – это легко!</p>
+        <div class="conteiner">
+        <h2 class="invitation__title">Байкальский отдых с нами – это легко!</h2>
+        <div class="invitation__img-block">
         <img src="./images/images/images/пара чел.jpg" alt="пара чел" />
-        <img src="./images/images/images/морекамен.jpg" alt="морекамен" />
-        <p>
+        <img src="./images/images/images/морекамен.jpg" alt="морекамен" /></div>
+        <p class="invitation__text">
           На сайте туристического агентства «Байкальский отдых» вы найдете всю
           необходимую информацию о туристических базах отдыха на озере Байкал.
           Любите ли вы отличный сервис и европейский комфорт или предпочитаете
           прочувствовать все трудности дикого туризма и окунуться в атмосферу
           байкальской природы, здесь вы сможете найти турбазу по своему вкусу.
         </p>
-        <p>
+        <p class="invitation__text">
           Туристические базы отдыха на Байкале предоставляют разнообразные
           условия размещения, они отличаются по перечню предлагаемых услуг и
           уровню комфорта.
         </p>
-        <p>
+        <p class="invitation__text">
           Есть большие турбазы с полностью организованным питанием и вечерними
           дискотеками, есть также небольшие малолюдные базы всего с несколькими
           коттеджами. Можно арендовать отдельный гостевой домик с кухней и
           готовить пищу самостоятельно.
         </p>
-        <p>
+        <p class="invitation__text">
           Среди этого многообразия обязательно найдется подходящая, именно вам,
           база отдыха. Тем не менее, Байкал, до сих пор, обладает всеми
           оттенками дикого экотуризма, чем и привлекает, уставших от городской
           суеты, туристов.
         </p>
-        <p>
+        <p class="invitation__text">
           Если вы предпочитаете зимний байкальский отдых, к Вашим услугам
           круглогодичные отапливаемые турбазы и различные зимние развлечения.
           Байкал зимой поражает кристальной чистотой и прозрачностью льда.
         </p>
-        <p>
+        <p class="invitation__text">
           Туристы очень любят отмечать Новогодние праздники и Рождество на
           турбазах Байкала, так как новый год на Байкале отличается особым
           волшебством. Развлекательную новогоднюю программу готовит почти каждая
           турбаза.
         </p>
+        </div>
       </section>
       <section class="features">
-        <h2>о нас</h2>
+        <div class="conteiner">
+        <h2 class="features__title is-hidden">о нас</h2>
         <ul>
+          
           <li>
             <p>7 лет успешной работы</p>
           </li>
+          
           <li>
             <p>250+ отелей на Байкале</p>
           </li>
@@ -745,6 +757,7 @@
             <p>50 000 довольных туристов от 3 до 85 лет</p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="form">
         <h2>Забронируйте отдых на Байкале</h2>

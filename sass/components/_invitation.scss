@@ -1,0 +1,39 @@
+.invitation {
+  padding-top: 33px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.invitation__title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 700;
+  //   font-size: 25px;
+  line-height: 1.31;
+  text-align: center;
+  text-transform: uppercase;
+  color: $textColor;
+  margin-bottom: 7px;
+}
+.invitation__img-block {
+  @media screen and (max-width: 319px) {
+    display: none;
+  }
+  @media screen and (min-width: 320px) and (max-width: 735px) {
+    display: none;
+  }
+}
+.invitation__text {
+  font-size: 16px;
+  line-height: 1.31;
+  color: $colorPtext;
+  margin-bottom: 15px;
+}
+.invitation::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 16px;
+  width: 288px;
+  background: $backgroundhedar;
+  border: 1px solid $backgroundbordercolor;
+}
