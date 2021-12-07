@@ -418,23 +418,54 @@ ul {
   margin-bottom: 15px;
 }
 
-.about_btn {
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: transparent;
+.about__btn {
   font-size: 14px;
   line-height: 1.14;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #76767a;
-  margin-bottom: 36px;
   cursor: pointer;
 }
 
 .about__video {
   width: 288px;
   height: 171px;
+  margin-top: 36px;
+}
+
+.about__text-checked {
+  display: none;
+}
+
+.about__chekbox:checked + .about__text-checked {
+  display: block;
+}
+
+.about__btn2 {
+  font-size: 14px;
+  line-height: 1.14;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #76767a;
+  cursor: pointer;
+}
+
+.about__btn2 {
+  display: none;
+}
+
+.about__chekbox:checked ~ .about__label .about__btn2 {
+  display: block;
+}
+
+.about__chekbox:checked ~ .about__label .about__btn {
+  display: none;
+}
+
+.about__chekbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .gallery {
