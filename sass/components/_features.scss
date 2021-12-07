@@ -25,17 +25,18 @@
 .features__list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 .features__item {
-  margin-top: 30px;
-  flex-basis: calc((100%-30px) / 2);
+  margin-top: 40px;
+  flex-basis: calc((100%-40px) / 2);
 }
 .features__text {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   color: $textColor;
+  max-width: 138px;
   &--age {
     max-width: 92px;
   }
@@ -44,5 +45,8 @@
   }
   &--tour {
     max-width: 73px;
+  }
+  &--metr {
+    max-width: 138px;
   }
 }

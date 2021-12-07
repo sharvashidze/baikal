@@ -563,9 +563,8 @@ ul {
   position: absolute;
   content: "";
   bottom: 0;
-  right: 16px;
-  left: 16px;
-  width: 288px;
+  left: 0;
+  width: 320px;
   background: #c4c4c4;
   border: 1px solid #d9d9de;
 }
@@ -605,13 +604,13 @@ ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 .features__item {
-  margin-top: 30px;
-  -ms-flex-preferred-size: calc((100%-30px) / 2);
-      flex-basis: calc((100%-30px) / 2);
+  margin-top: 40px;
+  -ms-flex-preferred-size: calc((100%-40px) / 2);
+      flex-basis: calc((100%-40px) / 2);
 }
 
 .features__text {
@@ -619,6 +618,7 @@ ul {
   font-size: 14px;
   line-height: 1.28;
   color: #000000;
+  max-width: 138px;
 }
 
 .features__text--age {
@@ -631,5 +631,9 @@ ul {
 
 .features__text--tour {
   max-width: 73px;
+}
+
+.features__text--metr {
+  max-width: 138px;
 }
 /*# sourceMappingURL=main.css.map */
