@@ -564,6 +564,7 @@ ul {
   content: "";
   bottom: 0;
   right: 16px;
+  left: 16px;
   width: 288px;
   background: #c4c4c4;
   border: 1px solid #d9d9de;
@@ -584,5 +585,51 @@ ul {
   border: 0;
   clip: rect(0 0 0 0);
   text-align: center;
+}
+
+.features__number {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.29;
+  color: #64bd22;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+.features__item {
+  margin-top: 30px;
+  -ms-flex-preferred-size: calc((100%-30px) / 2);
+      flex-basis: calc((100%-30px) / 2);
+}
+
+.features__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000000;
+}
+
+.features__text--age {
+  max-width: 92px;
+}
+
+.features__text--hotel {
+  max-width: 75px;
+}
+
+.features__text--tour {
+  max-width: 73px;
 }
 /*# sourceMappingURL=main.css.map */

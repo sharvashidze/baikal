@@ -13,3 +13,36 @@
   clip: rect(0 0 0 0);
   text-align: center;
 }
+.features__number {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.29;
+  color: $nombercolor;
+  display: flex;
+}
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+.features__item {
+  margin-top: 30px;
+  flex-basis: calc((100%-30px) / 2);
+}
+.features__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: $textColor;
+  &--age {
+    max-width: 92px;
+  }
+  &--hotel {
+    max-width: 75px;
+  }
+  &--tour {
+    max-width: 73px;
+  }
+}
