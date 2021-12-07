@@ -782,7 +782,7 @@ ul {
   border-color: #76767a;
   background-size: contain;
   background-origin: border-box;
-  background-image: url(../../images/checkmark_icon_125020.svg);
+  background-image: url(../../images/symbol-defs.svg#iconcheckmark_icon_125020);
 }
 
 .Form__text {
@@ -791,7 +791,7 @@ ul {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #76767a;
-  margin-left: 58px;
+  padding-left: 58px;
 }
 
 .form__btn {
