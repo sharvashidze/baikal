@@ -32,21 +32,23 @@
   flex-basis: calc((100%-40px) / 2);
 }
 .features__text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
-  color: $textColor;
-  max-width: 138px;
-  &--age {
-    max-width: 92px;
-  }
-  &--hotel {
-    max-width: 75px;
-  }
-  &--tour {
-    max-width: 73px;
-  }
-  &--metr {
+  @media screen and (min-width: 320px) and (max-width: 735px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    color: $textColor;
     max-width: 138px;
+    &--age {
+      max-width: 92px;
+    }
+    &--hotel {
+      max-width: 75px;
+    }
+    &--tour {
+      max-width: 73px;
+    }
+    &--metr {
+      max-width: 138px;
+    }
   }
 }
