@@ -463,6 +463,15 @@ ul {
 }
 
 .about__chekbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  text-align: center;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -808,7 +817,7 @@ ul {
   text-align: center;
 }
 
-.form__chekhidden:checked + .form__box {
+.form__chekhidden:checked ~ .form__box {
   background-color: #0050b2;
   border-color: #ffffff;
   background-size: contain;

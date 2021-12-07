@@ -93,7 +93,7 @@
   clip: rect(0 0 0 0);
   text-align: center;
 }
-.form__chekhidden:checked + .form__box {
+.form__chekhidden:checked ~ .form__box {
   background-color: $colorLinkblu;
   border-color: $whiteColor;
   background-size: contain;
