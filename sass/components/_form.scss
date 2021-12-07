@@ -94,11 +94,11 @@
   text-align: center;
 }
 .form__chekhidden:checked + .form__box {
-  background-color: $linkcolor;
-  border-color: $linkcolor;
+  background-color: $whiteColor;
+  border-color: $whiteColor;
   background-size: contain;
   background-origin: border-box;
-  background-image: url(../../images/symbol-defs.svg#iconcheckmark_icon_125020);
+  background-image: url(../../images/icons8-галочка.svg);
 }
 .Form__text {
   font-size: 14px;

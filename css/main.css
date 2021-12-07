@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -778,11 +779,11 @@ ul {
 }
 
 .form__chekhidden:checked + .form__box {
-  background-color: #76767a;
-  border-color: #76767a;
+  background-color: #ffffff;
+  border-color: #ffffff;
   background-size: contain;
   background-origin: border-box;
-  background-image: url(../../images/symbol-defs.svg#iconcheckmark_icon_125020);
+  background-image: url(../../images/icons8-галочка.svg);
 }
 
 .Form__text {

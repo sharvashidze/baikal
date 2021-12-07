@@ -150,7 +150,7 @@
             <path fill="none" stroke="#fff" style="stroke:var(--color1, #fff)" stroke-miterlimit="10" stroke-width="1.684" d="M12.632 0v29.642M1.684 19.537l10.948 10.779 10.946-10.779"/>
         </symbol>
         <symbol id="iconcheckmark_icon_125020" viewBox="0 0 32 32">
-            <path fill="none" stroke="#fff" style="stroke:var(--color1, #fff)" stroke-miterlimit="10" stroke-width="1.684" d="m0 17.6 3.2-3.2 8 8L28.8 4.8 32 8 11.2 28.8z"/>
+            <path d="m0 17.6 3.2-3.2 8 8L28.8 4.8 32 8 11.2 28.8z"/>
         </symbol>
     </defs>
 </svg>
