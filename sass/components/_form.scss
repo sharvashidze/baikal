@@ -81,6 +81,7 @@
   height: 26px;
   left: 0;
   top: 5px;
+  display: inline-block;
 }
 .form__chekhidden {
   position: absolute;
@@ -105,7 +106,9 @@
   line-height: 1.28;
   text-decoration-line: underline;
   color: $linkcolor;
-  padding-left: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form__btn {
   font-size: 16px;
@@ -118,4 +121,7 @@
   background: $colorLinkblu;
   border-radius: 25px;
   cursor: pointer;
+}
+.form__span {
+  margin-left: 58px;
 }
