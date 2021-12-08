@@ -973,8 +973,8 @@ ul {
   height: 100vh;
   padding: 30px 20px 20px 20px;
   z-index: 1000;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(105%);
+          transform: translateY(105%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
