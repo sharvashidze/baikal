@@ -35,6 +35,10 @@
     border: 0;
     background-color: transparent;
     color: $whiteColor;
+    cursor: pointer;
+    @media screen and (min-width: 736px) {
+      display: none;
+    }
   }
 }
 .logo__icon {
@@ -52,8 +56,11 @@
   @media screen and (max-width: 319px) {
     display: none;
   }
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 735px) {
     display: none;
+  }
+  @media screen and (min-width: 736px) {
+    display: block;
   }
 }
 .page-nav {
