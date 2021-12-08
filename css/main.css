@@ -972,7 +972,7 @@ ul {
   width: 100vw;
   height: 100vh;
   padding: 30px 20px 20px 20px;
-  z-index: 1000;
+  z-index: 1001;
   -webkit-transform: translateY(105%);
           transform: translateY(105%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
