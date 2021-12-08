@@ -26,15 +26,26 @@
   @media screen and (min-width: 320px) and (max-width: 735px) {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -40px;
+    // margin-top: -40px;
   }
 }
-.features__item {
-  @media screen and (min-width: 320px) and (max-width: 735px) {
-    margin-top: 40px;
-    flex-basis: calc((100%-40px) / 2);
+
+@media screen and (min-width: 320px) and (max-width: 735px) {
+  .features__item {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  .features__item--margin {
+    margin-right: 76px;
+    margin-bottom: 53px;
+  }
+  .features__item--right {
+    margin-right: 64px;
+    margin-bottom: 15px;
   }
 }
+
 .features__text {
   @media screen and (min-width: 320px) and (max-width: 735px) {
     font-weight: 500;

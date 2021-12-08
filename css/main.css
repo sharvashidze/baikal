@@ -644,15 +644,20 @@ ul {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-top: -40px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 735px) {
-  .features__item {
-    margin-top: 40px;
-    -ms-flex-preferred-size: calc((100%-40px) / 2);
-        flex-basis: calc((100%-40px) / 2);
+  .features__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .features__item--margin {
+    margin-right: 76px;
+    margin-bottom: 53px;
+  }
+  .features__item--right {
+    margin-right: 64px;
+    margin-bottom: 15px;
   }
 }
 
