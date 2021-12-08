@@ -1010,7 +1010,7 @@ ul {
 .mobile__link {
   font-size: 16px;
   line-height: 1.31;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   margin-bottom: 5px;
 }
 
@@ -1020,5 +1020,19 @@ ul {
 
 .mobile__list {
   margin-bottom: 5px;
+}
+
+.mobile__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #ffffff;
+}
+
+.mobile__text-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: rgba(255, 255, 255, 0.7);
 }
 /*# sourceMappingURL=main.css.map */
