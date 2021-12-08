@@ -1058,7 +1058,7 @@ ul {
 }
 
 .head-mobile__icon {
-  fill: #ffffff;
+  fill: #013001;
 }
 
 .head-mobile__btn {
@@ -1073,7 +1073,7 @@ ul {
 .head-mobile__link {
   font-size: 16px;
   line-height: 1.18;
-  color: #ffffff;
+  color: #013001;
 }
 
 .head-mobile__item:not(:last-child) {

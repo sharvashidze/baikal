@@ -14,7 +14,7 @@
   transform: translateY(0);
 }
 .head-mobile__icon {
-  fill: $whiteColor;
+  fill: rgb(1, 48, 1);
 }
 .head-mobile__btn {
   position: absolute;
@@ -27,7 +27,7 @@
 .head-mobile__link {
   font-size: 16px;
   line-height: 1.18;
-  color: $whiteColor;
+  color: rgb(1, 48, 1);
 }
 .head-mobile__item {
   &:not(:last-child) {
