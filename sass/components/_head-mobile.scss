@@ -9,6 +9,7 @@
   background: #c0c1c5;
   transform: translateY(-100%);
   transition: transform 250ms ease-in-out;
+  overflow-y: scroll;
 }
 .head-mobile__menu.is-open {
   transform: translateY(0);

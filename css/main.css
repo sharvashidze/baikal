@@ -39,6 +39,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 736px) {
+  .conteiner {
+    width: 736px;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -1050,6 +1056,7 @@ ul {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  overflow-y: scroll;
 }
 
 .head-mobile__menu.is-open {

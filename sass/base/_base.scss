@@ -29,6 +29,9 @@ ul {
   @media screen and (min-width: 320px) {
     width: 320px;
   }
+  @media screen and (min-width:736px){
+    width: 736px;
+  }
 }
 .visually-hidden {
   position: absolute;
