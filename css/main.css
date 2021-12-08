@@ -964,4 +964,61 @@ ul {
   margin-left: 14px;
   fill: rgba(255, 255, 255, 0.8);
 }
+
+.mobile__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 30px 20px 20px 20px;
+  background-color: #fff;
+  z-index: 1000;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  background: #202020;
+  overflow-y: scroll;
+}
+
+.mobile__menu.is-open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.mobile__buttn {
+  position: absolute;
+  padding: 0;
+  background: transparent;
+  border: none;
+  top: 8px;
+  right: 8px;
+}
+
+.mobile__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.mobile__link {
+  font-size: 16px;
+  line-height: 1.31;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+.mobile__icon {
+  fill: #ffffff;
+}
+
+.mobile__list {
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=main.css.map */
