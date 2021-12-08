@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+    <!-- <script src="./js/mobile-menu.js"></script> -->
     <!--🤞Header Logo✌️-->
     <header class="page-header page-header__after">
       <div class="conteiner">
@@ -31,7 +32,7 @@
             <p class="logo__text2">Турагентство</p>
           </div>
 
-          <button type="button" class="logo__menu">
+          <button type="button" class="logo__menu js-open-Btn" id="head-mobile__menu">
             <svg width="32" height="24" class="logo__icon">
               <use href="./images/symbol-defs.svg#icontelmenu"></use>
             </svg>
@@ -67,6 +68,37 @@
         </nav>
       </div>
     </header>
+    <div class="head-mobile__menu js-container-mobile">
+      <button class="head-mobile__btn js-close-Btn"><svg width="32" height="24" class="head-mobile__icon">
+        <use href="./images/symbol-defs.svg#iconmenuX"></use>
+      </svg></button>
+          <ul class="head-mobile__list">
+            <li class="head-mobile__item">
+              <a href="#" class="head-mobile__link">Бронирование</a>
+            </li>
+            <li class="head-mobile__item">
+              <a href="#" class="head-mobile__link">Экскурсии</a>
+            </li>
+            <li class="head-mobile__item">
+              <a href="#" class="head-mobile__link">Туры на Байкал</a>
+            </li>
+            <li class="head-mobile__item">
+              <a href="#" class="head-mobile__link">О Байкале</a>
+            </li>
+            <li class="head-mobile__item">
+              <a href="#" class="head-mobile__link">О нас</a>
+            </li>
+          </ul>
+          <ul class="head-mobile__contacts">
+          <li class="head-mobile__item"><a href="tel:89243541540" class="head-mobile__link">8-924-3-541-540</a></li>
+          <li class="head-mobile__item">
+            <a href="mailto:baikalholiday@mail.ru" class="head-mobile__link">baikalholiday@mail.ru</a>
+          </li>
+        </ul>
+        <button type="button" class="head-mobile__button">
+          Обратный звонок
+        </button>
+        </div>
     <main>
       <section class="hero">
         <div class="conteiner">
@@ -933,6 +965,7 @@
             <a href="#" class="menu__design">Дизайн<img class="menu__img" src="./images/logo2.svg" alt="logo" /></a>
       </div>
     </footer>
+    
     <script src="./js/footer-menu.js"></script>
   </body>
 </html>
