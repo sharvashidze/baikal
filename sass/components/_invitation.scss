@@ -28,14 +28,12 @@
   color: $colorPtext;
   margin-bottom: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 735px) {
-  .invitation::after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 320px;
-    background: $backgroundhedar;
-    border: 1px solid $backgroundbordercolor;
-  }
+
+.affter::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 288px;
+  background: $backgroundhedar;
+  border: 1px solid $backgroundbordercolor;
 }

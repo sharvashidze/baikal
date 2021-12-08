@@ -97,8 +97,9 @@
 .form__chekhidden:checked ~ .form__box {
   background-color: $colorLinkblu;
   border-color: $whiteColor;
-  background-size: contain;
+  background-size: cover;
   background-origin: border-box;
+  background-repeat: no-repeat;
   background-image: url(../../images/icon-check.svg);
 }
 .Form__text {
