@@ -1109,4 +1109,17 @@ ul {
   width: 186px;
   background: #013001;
 }
+
+.head-mobile__link-phoneMail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head-mobile__svg {
+  margin-right: 15px;
+}
 /*# sourceMappingURL=main.css.map */
