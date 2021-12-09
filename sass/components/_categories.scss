@@ -10,29 +10,41 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: $textColor;
 }
 .categories__block {
   padding: 18px 0 18px 20px;
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
+    padding: 16px 104px 20px 23px;
+  }
 }
 .categories__item {
   border: 1px solid $backgroundbordercolor;
   box-sizing: border-box;
   border-radius: 6px;
   &:not(:last-child) {
-    margin-bottom: 16px;
-    @media screen and (min-width: 736px) {
-      margin-bottom: 32px;
+    @media screen and (min-width: 320px) and (max-width: 735px) {
+      margin-bottom: 16px;
     }
   }
-  @media screen and (min-width: 736px) {
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
     margin-left: 32px;
+    margin-top: 32px;
+    width: 320px;
   }
 }
 .categories__card {
   @media screen and (min-width: 736px) {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -32px;
+    margin-top: -32px;
+    justify-content: center;
+  }
+}
+.categories__img {
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
+    width: 320px;
   }
 }
