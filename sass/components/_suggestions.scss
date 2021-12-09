@@ -1,7 +1,12 @@
 .suggestions {
   padding-top: 25px;
   padding-bottom: 32px;
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
+    padding-top: 33px;
+    padding-bottom: 40px;
+  }
 }
+
 .suggestions__title {
   font-family: PT Serif;
   font-style: normal;
@@ -11,11 +16,31 @@
   color: $textColor;
   max-width: 230px;
   margin-bottom: 7px;
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
+    font-size: 30px;
+    line-height: 1.33;
+    max-width: 403px;
+    margin-bottom: 24px;
+  }
 }
 .suggestions__item {
   &:not(:last-child) {
     margin-bottom: 16px;
   }
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
+    width: 320px;
+  }
+}
+.suggestions__img {
+  @media screen and (min-width: 736px) and (max-width: 1087px) {
+    width: 320px;
+  }
+}
+.suggestions__item-datsan {
+  width: 671px;
+}
+.suggestions__img-width {
+  width: 671px;
 }
 .suggestions__subtitle {
   font-weight: 500;
@@ -60,6 +85,9 @@
 .suggestions__item-hidden {
   @media screen and (min-width: 320px) and (max-width: 735px) {
     display: none;
+  }
+  @media screen and (min-width: 736px) {
+    display: block;
   }
 }
 .offer__block {
