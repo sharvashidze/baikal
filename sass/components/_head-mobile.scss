@@ -10,6 +10,9 @@
   transform: translateY(-100%);
   transition: transform 250ms ease-in-out;
   overflow-y: scroll;
+  @media screen and (min-width: 736px) {
+    display: none;
+  }
 }
 .head-mobile__menu.is-open {
   transform: translateY(0);
