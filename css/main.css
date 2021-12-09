@@ -577,12 +577,16 @@ ul {
   }
 }
 
-.suggestions__item-datsan {
-  width: 671px;
+@media screen and (min-width: 736px) and (max-width: 1087px) {
+  .suggestions__item-datsan {
+    width: 671px;
+  }
 }
 
-.suggestions__img-width {
-  width: 671px;
+@media screen and (min-width: 736px) and (max-width: 1087px) {
+  .suggestions__img-width {
+    width: 671px;
+  }
 }
 
 .suggestions__subtitle {
