@@ -18,3 +18,6 @@ border: 0;
 clip: rect(0 0 0 0);
 text-align: center;
 }
+
+<!-- ссылка на whatsapp -->
+<!-- <a href="https://wa.me/+79263258559">7-926-325-85-59</a> -->
